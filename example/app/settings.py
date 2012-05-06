@@ -152,3 +152,9 @@ LOGGING = {
         },
     }
 }
+#
+# - Mail Management
+INSTALLED_APPS += ( 'paloma' ,) 
+
+# - Authentication
+INSTALLED_APPS += ( 'peacock', )
